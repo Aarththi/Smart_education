@@ -1,0 +1,19 @@
+Our project is SIH1586 Smart Education – Personalized Learning Analytics.
+
+The main problem we address is that teachers may find it difficult to identify every student's learning difficulties early.
+
+To help with this, we developed an interactive dashboard using Python and Streamlit.
+
+Our prototype uses 600 synthetic student records containing learning indicators such as attendance, study hours, quiz scores, and course progress.
+
+We use Pandas for data handling and Scikit-learn for data preprocessing and machine learning.
+
+Our machine-learning algorithm is the Random Forest Classifier, which classifies student records into two categories: needs_support and on_track.
+
+We also developed a rule-based recommendation function to suggest study activities based on student indicators.
+
+The dashboard has six sections: Overview, Student Explorer, Early-Warning Centre, Personalized Study Planner, Dataset Lab, and Model Evaluation.
+
+Our current evaluation report shows approximately 91.33% accuracy on the synthetic test dataset. We understand that this result must be validated using appropriate real-world data before making claims about real student performance.
+
+Our goal is to help teachers understand student learning needs and make more informed decisions about academic support.
